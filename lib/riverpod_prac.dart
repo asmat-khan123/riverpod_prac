@@ -11,7 +11,11 @@ class _riverpod_pracState extends State<riverpod_prac> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text("Riverpod_prac"),
+      body: Column(
+        children: [
+          Text("Riverpod_prac"),
+        ],
+      )
     );
   }
 }
